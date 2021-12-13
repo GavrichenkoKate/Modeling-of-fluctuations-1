@@ -14,10 +14,8 @@ objects = []
 
 def main():
     FPS = 30
-    time_out_begin = TIME * FPS
-    time_out = time_out_begin
     
-    ticks = 0
+
     ended = False
     finished = False
 
@@ -34,8 +32,22 @@ def main():
     purple = (128, 0, 255)
     black = (0, 0, 0)
 
-    
+
 
 if not started_already:
-            screen.fill(BLACK)
+            screen.fill(black)
             clicked = False
+
+while not finished:
+    clicked.tick(dt) (t += dt)
+    {vis}
+    Euler_equations(pend, t, dt)
+    RK_4(pend, t, dt)
+     pygame.display.update()
+
+pygame.quit()
+
+if __name__ == "__main__":
+    main()
+
+
